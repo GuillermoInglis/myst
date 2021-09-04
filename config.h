@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+//static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "CaskaydiaCove Nerd Font:style=Book:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -96,24 +97,24 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#2F2F2F",
+	"#EB5A47",
+	"#06B184",
+	"#FFCE5C",
+	"#1F9EFF",
+	"#9C6DC5",
+	"#7dcfff",
+	"#c7c9d4",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#474747",
+	"#ed6a5a",
+	"#07C592",
+	"#ffd166",
+	"#35a7ff",
+	"#A379C9",
+	"#7dcfff",
+	"#acb0d0",
 
 	[255] = 0,
 
